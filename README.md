@@ -3,7 +3,9 @@ Bot para jogar o jogo [aimtrainer.io](https://aimtrainer.io/challenge), utilizan
 identificar a localização dos alvos na tela e o PyAutoGUI para clicar na tela. Acredito que com poucas modificações é
 possível fazer o bot jogar os outros modos de jogo do site.
 
-![bot_animation.gif](Bot jogando no modo hard!)
+<p align="center">
+<img src="bot_animation.gif" class="img-responsive" alt="Bot jogando no modo hard!">
+</p>
 
 ### Requisitos:
 - [pyautogui](https://pyautogui.readthedocs.io/en/latest/): Automação do clique do mouse
@@ -18,7 +20,9 @@ O bot faz várias capturas da tela do computador, de forma que a cada captura é
 pré-definida do alvo. Assim que um alvo é localizado, o ponteiro do mouse navega até a localização definida e executa um
 clique. A imagem abaixo mostra a identificação de um alvo no jogo contornado por um retângulo:
 
-!["Visão do bot"](bot.png)
+<p align="center">
+<img src="bot.png" class="img-responsive" alt="Visão do bot">
+</p>
 
 ### Execução:
 1. Preparar o script ```main.py``` para rodar, escolhendo o número de pontos, tamanho do alvo em pixels e a resolução 
